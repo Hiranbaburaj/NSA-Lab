@@ -1,9 +1,8 @@
 #!/bin/bash
 read -p "Enter your Number: " fact
 a=1
-let facto="$fact+1"
-for i in $(seq $facto)
+for i in $(seq $fact)
 do 
-echo $a
 a=$(($a*$i))
 done
+echo $a
